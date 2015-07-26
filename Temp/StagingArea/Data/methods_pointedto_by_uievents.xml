@@ -1,0 +1,13 @@
+<linker>
+	<assembly fullname="UnityEngine">
+		<type fullname="UnityEngine.Animator">
+			<method name="Play"/>
+		</type>
+	</assembly>
+	<assembly fullname="Assembly-CSharp">
+		<type fullname="HelloUnity">
+			<method name="ChangeColor"/>
+			<method name="Boom"/>
+		</type>
+	</assembly>
+</linker>

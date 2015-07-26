@@ -9,8 +9,8 @@ PlayerSettings:
   targetDevice: 2
   targetResolution: 0
   accelerometerFrequency: 60
-  companyName: Unity Technologies
-  productName: Unity Remote 4
+  companyName: MHCILab
+  productName: SummerSchool
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_ShowUnitySplashScreen: 1
@@ -71,7 +71,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleIdentifier: com.unity3d.remote
+  bundleIdentifier: com.mhci.test
   bundleVersion: 1.0
   preloadedAssets: []
   metroEnableIndependentInputSource: 1

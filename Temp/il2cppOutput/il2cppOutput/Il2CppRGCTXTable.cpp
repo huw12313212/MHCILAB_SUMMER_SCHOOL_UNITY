@@ -1,0 +1,246 @@
+﻿#include "il2cpp-config.h"
+#include "class-internals.h"
+#include "codegen/il2cpp-codegen.h"
+#include <cstring>
+#include <string.h>
+#include <stdio.h>
+#ifndef _MSC_VER
+#include <alloca.h>
+#else
+#include <malloc.h>
+#endif
+#include <cmath>
+#include <limits>
+#include <assert.h>
+
+extern const Il2CppRGCTXDefinition ExecuteEvents_ValidateEventData_m18333_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_Execute_m18334_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_ExecuteHierarchy_m18335_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_ShouldSendToComponent_m18336_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_GetEventList_m18337_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_CanHandleEvent_m18338_RGCTXData[];
+extern const Il2CppRGCTXDefinition ExecuteEvents_GetEventHandler_m18339_RGCTXData[];
+extern const Il2CppRGCTXDefinition TweenRunner_1_t2699_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CStartU3Ec__Iterator0_t2700_RGCTXData[];
+extern const Il2CppRGCTXDefinition SetPropertyUtility_SetStruct_m18367_RGCTXData[];
+extern const Il2CppRGCTXDefinition SetPropertyUtility_SetClass_m18368_RGCTXData[];
+extern const Il2CppRGCTXDefinition LayoutGroup_SetProperty_m18384_RGCTXData[];
+extern const Il2CppRGCTXDefinition IndexedSet_1_t2701_RGCTXData[];
+extern const Il2CppRGCTXDefinition ObjectPool_1_t2702_RGCTXData[];
+extern const Il2CppRGCTXDefinition ScriptableObject_CreateInstance_m18412_RGCTXData[];
+extern const Il2CppRGCTXDefinition Object_Instantiate_m18415_RGCTXData[];
+extern const Il2CppRGCTXDefinition Component_GetComponent_m18416_RGCTXData[];
+extern const Il2CppRGCTXDefinition Component_GetComponentsInChildren_m18417_RGCTXData[];
+extern const Il2CppRGCTXDefinition Component_GetComponentsInChildren_m18418_RGCTXData[];
+extern const Il2CppRGCTXDefinition Component_GetComponents_m18419_RGCTXData[];
+extern const Il2CppRGCTXDefinition GameObject_GetComponent_m18420_RGCTXData[];
+extern const Il2CppRGCTXDefinition GameObject_GetComponents_m18421_RGCTXData[];
+extern const Il2CppRGCTXDefinition GameObject_GetComponentsInChildren_m18422_RGCTXData[];
+extern const Il2CppRGCTXDefinition GameObject_GetComponentsInParent_m18423_RGCTXData[];
+extern const Il2CppRGCTXDefinition GameObject_AddComponent_m18424_RGCTXData[];
+extern const Il2CppRGCTXDefinition ResponseBase_ParseJSONList_m18427_RGCTXData[];
+extern const Il2CppRGCTXDefinition NetworkMatch_ProcessMatchResponse_m18428_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CProcessMatchResponseU3Ec__Iterator0_1_t2706_RGCTXData[];
+extern const Il2CppRGCTXDefinition ThreadSafeDictionary_2_t2707_RGCTXData[];
+extern const Il2CppRGCTXDefinition BaseInvokableCall_ThrowOnInvalidArg_m18469_RGCTXData[];
+extern const Il2CppRGCTXDefinition InvokableCall_1_t2711_RGCTXData[];
+extern const Il2CppRGCTXDefinition InvokableCall_2_t2712_RGCTXData[];
+extern const Il2CppRGCTXDefinition InvokableCall_3_t2713_RGCTXData[];
+extern const Il2CppRGCTXDefinition InvokableCall_4_t2714_RGCTXData[];
+extern const Il2CppRGCTXDefinition CachedInvokableCall_1_t676_RGCTXData[];
+extern const Il2CppRGCTXDefinition UnityEvent_1_t2715_RGCTXData[];
+extern const Il2CppRGCTXDefinition UnityEvent_2_t2716_RGCTXData[];
+extern const Il2CppRGCTXDefinition UnityEvent_3_t2717_RGCTXData[];
+extern const Il2CppRGCTXDefinition UnityEvent_4_t2718_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerable_Where_m18521_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerable_CreateWhereIterator_m18522_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CCreateWhereIteratorU3Ec__Iterator1D_1_t2723_RGCTXData[];
+extern const Il2CppRGCTXDefinition Stack_1_t2725_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2726_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__IEnumerable_GetEnumerator_m18640_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__ICollection_Contains_m18643_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__IndexOf_m18646_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_InternalArray__set_Item_m18648_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18652_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18653_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18654_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18655_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18656_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18657_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18658_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18659_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18660_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Sort_m18661_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_qsort_m18662_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_compare_m18663_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_qsort_m18664_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Resize_m18667_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Resize_m18668_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_TrueForAll_m18669_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_ForEach_m18670_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_ConvertAll_m18671_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m18672_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m18673_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLastIndex_m18674_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m18675_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m18676_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindIndex_m18677_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m18678_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m18679_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m18680_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_BinarySearch_m18681_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m18682_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m18683_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_IndexOf_m18684_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m18685_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m18686_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_LastIndexOf_m18687_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindAll_m18688_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Exists_m18689_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_AsReadOnly_m18690_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_Find_m18691_RGCTXData[];
+extern const Il2CppRGCTXDefinition Array_FindLast_m18692_RGCTXData[];
+extern const Il2CppRGCTXDefinition InternalEnumerator_1_t2734_RGCTXData[];
+extern const Il2CppRGCTXDefinition ArrayReadOnlyList_1_t2735_RGCTXData[];
+extern const Il2CppRGCTXDefinition U3CGetEnumeratorU3Ec__Iterator0_t2736_RGCTXData[];
+extern const Il2CppRGCTXDefinition Nullable_1_t1709_RGCTXData[];
+extern const Il2CppRGCTXDefinition Comparer_1_t2745_RGCTXData[];
+extern const Il2CppRGCTXDefinition DefaultComparer_t2746_RGCTXData[];
+extern const Il2CppRGCTXDefinition GenericComparer_1_t2696_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_Do_CopyTo_m18844_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_Do_ICollectionCopyTo_m18849_RGCTXData[];
+extern const Il2CppRGCTXDefinition Dictionary_2_t2747_RGCTXData[];
+extern const Il2CppRGCTXDefinition ShimEnumerator_t2748_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2749_RGCTXData[];
+extern const Il2CppRGCTXDefinition KeyCollection_t2750_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2751_RGCTXData[];
+extern const Il2CppRGCTXDefinition ValueCollection_t2752_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2753_RGCTXData[];
+extern const Il2CppRGCTXDefinition EqualityComparer_1_t2755_RGCTXData[];
+extern const Il2CppRGCTXDefinition DefaultComparer_t2756_RGCTXData[];
+extern const Il2CppRGCTXDefinition GenericEqualityComparer_1_t2695_RGCTXData[];
+extern const Il2CppRGCTXDefinition KeyValuePair_2_t2760_RGCTXData[];
+extern const Il2CppRGCTXDefinition List_1_t2761_RGCTXData[];
+extern const Il2CppRGCTXDefinition Enumerator_t2762_RGCTXData[];
+extern const Il2CppRGCTXDefinition Collection_1_t2763_RGCTXData[];
+extern const Il2CppRGCTXDefinition ReadOnlyCollection_1_t2764_RGCTXData[];
+extern const Il2CppRGCTXDefinition MonoProperty_GetterAdapterFrame_m19125_RGCTXData[];
+extern const Il2CppRGCTXDefinition MonoProperty_StaticGetterAdapterFrame_m19126_RGCTXData[];
+extern const Il2CppRGCTXDefinition Activator_CreateInstance_m19240_RGCTXData[];
+extern const Il2CppRGCTXDefinition* s_RGCXTDefinitionTable[114] = 
+{
+	ExecuteEvents_ValidateEventData_m18333_RGCTXData,
+	ExecuteEvents_Execute_m18334_RGCTXData,
+	ExecuteEvents_ExecuteHierarchy_m18335_RGCTXData,
+	ExecuteEvents_ShouldSendToComponent_m18336_RGCTXData,
+	ExecuteEvents_GetEventList_m18337_RGCTXData,
+	ExecuteEvents_CanHandleEvent_m18338_RGCTXData,
+	ExecuteEvents_GetEventHandler_m18339_RGCTXData,
+	TweenRunner_1_t2699_RGCTXData,
+	U3CStartU3Ec__Iterator0_t2700_RGCTXData,
+	SetPropertyUtility_SetStruct_m18367_RGCTXData,
+	SetPropertyUtility_SetClass_m18368_RGCTXData,
+	LayoutGroup_SetProperty_m18384_RGCTXData,
+	IndexedSet_1_t2701_RGCTXData,
+	ObjectPool_1_t2702_RGCTXData,
+	ScriptableObject_CreateInstance_m18412_RGCTXData,
+	Object_Instantiate_m18415_RGCTXData,
+	Component_GetComponent_m18416_RGCTXData,
+	Component_GetComponentsInChildren_m18417_RGCTXData,
+	Component_GetComponentsInChildren_m18418_RGCTXData,
+	Component_GetComponents_m18419_RGCTXData,
+	GameObject_GetComponent_m18420_RGCTXData,
+	GameObject_GetComponents_m18421_RGCTXData,
+	GameObject_GetComponentsInChildren_m18422_RGCTXData,
+	GameObject_GetComponentsInParent_m18423_RGCTXData,
+	GameObject_AddComponent_m18424_RGCTXData,
+	ResponseBase_ParseJSONList_m18427_RGCTXData,
+	NetworkMatch_ProcessMatchResponse_m18428_RGCTXData,
+	U3CProcessMatchResponseU3Ec__Iterator0_1_t2706_RGCTXData,
+	ThreadSafeDictionary_2_t2707_RGCTXData,
+	BaseInvokableCall_ThrowOnInvalidArg_m18469_RGCTXData,
+	InvokableCall_1_t2711_RGCTXData,
+	InvokableCall_2_t2712_RGCTXData,
+	InvokableCall_3_t2713_RGCTXData,
+	InvokableCall_4_t2714_RGCTXData,
+	CachedInvokableCall_1_t676_RGCTXData,
+	UnityEvent_1_t2715_RGCTXData,
+	UnityEvent_2_t2716_RGCTXData,
+	UnityEvent_3_t2717_RGCTXData,
+	UnityEvent_4_t2718_RGCTXData,
+	Enumerable_Where_m18521_RGCTXData,
+	Enumerable_CreateWhereIterator_m18522_RGCTXData,
+	U3CCreateWhereIteratorU3Ec__Iterator1D_1_t2723_RGCTXData,
+	Stack_1_t2725_RGCTXData,
+	Enumerator_t2726_RGCTXData,
+	Array_InternalArray__IEnumerable_GetEnumerator_m18640_RGCTXData,
+	Array_InternalArray__ICollection_Contains_m18643_RGCTXData,
+	Array_InternalArray__IndexOf_m18646_RGCTXData,
+	Array_InternalArray__set_Item_m18648_RGCTXData,
+	Array_Sort_m18652_RGCTXData,
+	Array_Sort_m18653_RGCTXData,
+	Array_Sort_m18654_RGCTXData,
+	Array_Sort_m18655_RGCTXData,
+	Array_Sort_m18656_RGCTXData,
+	Array_Sort_m18657_RGCTXData,
+	Array_Sort_m18658_RGCTXData,
+	Array_Sort_m18659_RGCTXData,
+	Array_Sort_m18660_RGCTXData,
+	Array_Sort_m18661_RGCTXData,
+	Array_qsort_m18662_RGCTXData,
+	Array_compare_m18663_RGCTXData,
+	Array_qsort_m18664_RGCTXData,
+	Array_Resize_m18667_RGCTXData,
+	Array_Resize_m18668_RGCTXData,
+	Array_TrueForAll_m18669_RGCTXData,
+	Array_ForEach_m18670_RGCTXData,
+	Array_ConvertAll_m18671_RGCTXData,
+	Array_FindLastIndex_m18672_RGCTXData,
+	Array_FindLastIndex_m18673_RGCTXData,
+	Array_FindLastIndex_m18674_RGCTXData,
+	Array_FindIndex_m18675_RGCTXData,
+	Array_FindIndex_m18676_RGCTXData,
+	Array_FindIndex_m18677_RGCTXData,
+	Array_BinarySearch_m18678_RGCTXData,
+	Array_BinarySearch_m18679_RGCTXData,
+	Array_BinarySearch_m18680_RGCTXData,
+	Array_BinarySearch_m18681_RGCTXData,
+	Array_IndexOf_m18682_RGCTXData,
+	Array_IndexOf_m18683_RGCTXData,
+	Array_IndexOf_m18684_RGCTXData,
+	Array_LastIndexOf_m18685_RGCTXData,
+	Array_LastIndexOf_m18686_RGCTXData,
+	Array_LastIndexOf_m18687_RGCTXData,
+	Array_FindAll_m18688_RGCTXData,
+	Array_Exists_m18689_RGCTXData,
+	Array_AsReadOnly_m18690_RGCTXData,
+	Array_Find_m18691_RGCTXData,
+	Array_FindLast_m18692_RGCTXData,
+	InternalEnumerator_1_t2734_RGCTXData,
+	ArrayReadOnlyList_1_t2735_RGCTXData,
+	U3CGetEnumeratorU3Ec__Iterator0_t2736_RGCTXData,
+	Nullable_1_t1709_RGCTXData,
+	Comparer_1_t2745_RGCTXData,
+	DefaultComparer_t2746_RGCTXData,
+	GenericComparer_1_t2696_RGCTXData,
+	Dictionary_2_Do_CopyTo_m18844_RGCTXData,
+	Dictionary_2_Do_ICollectionCopyTo_m18849_RGCTXData,
+	Dictionary_2_t2747_RGCTXData,
+	ShimEnumerator_t2748_RGCTXData,
+	Enumerator_t2749_RGCTXData,
+	KeyCollection_t2750_RGCTXData,
+	Enumerator_t2751_RGCTXData,
+	ValueCollection_t2752_RGCTXData,
+	Enumerator_t2753_RGCTXData,
+	EqualityComparer_1_t2755_RGCTXData,
+	DefaultComparer_t2756_RGCTXData,
+	GenericEqualityComparer_1_t2695_RGCTXData,
+	KeyValuePair_2_t2760_RGCTXData,
+	List_1_t2761_RGCTXData,
+	Enumerator_t2762_RGCTXData,
+	Collection_1_t2763_RGCTXData,
+	ReadOnlyCollection_1_t2764_RGCTXData,
+	MonoProperty_GetterAdapterFrame_m19125_RGCTXData,
+	MonoProperty_StaticGetterAdapterFrame_m19126_RGCTXData,
+	Activator_CreateInstance_m19240_RGCTXData,
+};
