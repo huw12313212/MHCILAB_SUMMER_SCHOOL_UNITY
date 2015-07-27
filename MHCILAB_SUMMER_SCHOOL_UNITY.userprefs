@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../MFMClinicInteractiveReport/Assets/PhotoViewController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/GestureOnBox.cs">
     <Files>
-      <File FileName="../MFMClinicInteractiveReport/Assets/PhotoViewController.cs" Line="238" Column="6" />
+      <File FileName="Assets/HelloUnity.cs" Line="15" Column="28" />
+      <File FileName="Assets/CollisionEventTrigger.cs" Line="1" Column="1" />
+      <File FileName="Assets/KillMySelf.cs" Line="16" Column="3" />
+      <File FileName="Assets/GestureOnBox.cs" Line="23" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
